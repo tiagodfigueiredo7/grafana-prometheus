@@ -84,7 +84,7 @@ services:
       - SUBDOMAINS=wildcard,
       - VALIDATION=dns
       - DNSPLUGIN=cloudflare
-      - EMAIL=email@example.com
+      - EMAIL=tiagod.figueiredo@gmail.com
       - DHLEVEL=4096
     volumes:
       - ./config:/config
